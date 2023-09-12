@@ -12,6 +12,14 @@ public class GameResult {
     
     private final Team HOME_TEAM;
     private final Team AWAY_TEAM;
+
+    public Team getHOME_TEAM() {
+        return HOME_TEAM;
+    }
+
+    public Team getAWAY_TEAM() {
+        return AWAY_TEAM;
+    }
     private Team winner;
     private int homeTeamGoals;
     private int awayTeamGoals;
